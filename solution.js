@@ -26,3 +26,10 @@ function checkSum(data) {
 }
 
 checkSum(data);
+
+
+function min(arr) {
+    return arr.reduce(function (a,b){
+        return Math.min(a,b)
+    })
+}
